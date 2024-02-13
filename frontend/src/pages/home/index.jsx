@@ -1,7 +1,13 @@
-import "./style.scss";
+import ContactForm from "../../components/contactForm";
+import LatestBlogs from "../../components/latestBlogs";
 
 function Home() {
-    return <div className="home"></div>;
+    return (
+        <>
+            <LatestBlogs />
+            <ContactForm />
+        </>
+    );
 }
 
 export default Home;
